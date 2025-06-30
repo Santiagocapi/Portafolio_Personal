@@ -4,11 +4,11 @@
   --green: #2f7f3b;
   --blue: #1d2c45;
   --white: #f0f0f0;
-  --pink: #f3c9b4;
+  /* --pink: #f3c9b4; */
   --grey: #a6a3a0;
-  --brown: #6b342a;
+  /* --brown: #6b342a;
   --red: #d43c3c;
-  --black: #000;
+  --black: #000; */
   --box-shadow: 0 2rem 1.5rem rgba(87, 87, 87, 0.1);
 }
 
@@ -211,14 +211,14 @@ header {
   font-size: 20px;
 }
 
-.social a {
-  color: var(--white);
-  margin: 0 8px;
-  text-decoration: none;
+.social {
+  margin-bottom: 10px;
 }
 
-.social a:hover {
-  text-decoration: underline;
+.social a {
+  color: var(--white);
+  margin: 0 8px ;
+  text-decoration: none;
 }
 
 .logos-universidades {
