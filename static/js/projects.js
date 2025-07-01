@@ -34,7 +34,7 @@ projects.forEach((projects) => {
     <p class="project_meta">📅 ${projects.fecha} | 🧩 ${projects.materia}</p>
     <p class="project_description">${projects.descripcion}</p>
     <a class="project_github_link" href="${projects.github}" target="_blank">
-      <img src="../static/img/GitHub.svg.png" alt="GitHub Repo" />
+      <img src="./static/img/GitHub.svg.png" alt="GitHub Repo" />
     </a>
   `;
   contenedor.appendChild(card);
